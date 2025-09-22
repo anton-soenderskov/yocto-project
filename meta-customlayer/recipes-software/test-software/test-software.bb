@@ -8,3 +8,11 @@ inherit go
 SRC_URI = "file://main.go \
            file://go.mod \
           "
+GO_SRC = "${S}"
+
+# Specify the output binary name
+BIN_NAME = "test-software"
+
+# Package the built binary to the standard bindir
+FILES_${PN} = "${bindir}/${BIN_NAME}"
+
