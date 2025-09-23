@@ -1,3 +1,3 @@
-module github.com/anton-soenderskov/yocto-project/helloworld
+module github.com/anton-soenderskov/yocto-project
 
-go 1.25.1
+go 1.24
