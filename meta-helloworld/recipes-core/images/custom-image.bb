@@ -1,3 +1,5 @@
-inherit core-image
+require recipes-core/images/core-image-minimal.bb
 
-IMAGE_INSTALL += "my-app"
+DESCRIPTION = "A minimal image with the helloworld application."
+
+IMAGE_INSTALL += "application"
