@@ -3,10 +3,10 @@ DESCRIPTION = "This is the recipe for the helloworld application"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
-SRC_URI = "git://github.com/anton-soenderskov/yocto-project.git;protocol=https;branch=main"
+SRC_URI = "git://github.com/anton-soenderskov/yocto-project.git;protocol=https;branch=main;subdir=hw"
 SRCRC = "fa63cc92aecded91e644fe109ad71a1fa84ad302"
 
-GO_IMPORT = "github.com/anton-soenderskov/yocto-project"
+GO_IMPORT = "github.com/anton-soenderskov/yocto-project/hw"
 # GO_INSTALL IS SET TO DEFAULT: GO_INSTALL ?= "${GO_IMPORT}/..."
 
 export GO111MODULE = "off"
