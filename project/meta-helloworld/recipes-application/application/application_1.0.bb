@@ -4,7 +4,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda2f7b4f302"
 
 SRC_URI = "git://github.com/anton-soenderskov/yocto-project.git;protocol=https;branch=main;subdir=hw"
-SRCRC = "fa63cc92aecded91e644fe109ad71a1fa84ad302"
+SRCREV = "f2247463a57ecde8337f36ceb0f8c382de5cf1df"
 
 GO_IMPORT = "github.com/anton-soenderskov/yocto-project/hw"
 # GO_INSTALL IS SET TO DEFAULT: GO_INSTALL ?= "${GO_IMPORT}/..."
